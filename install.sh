@@ -45,7 +45,7 @@ rm -rf ${dir}
 # make sure the serial can be read
 sudo dmidecode -s system-serial-number > "/home/${user}/.serial.txt"
 
-
+conky
 
 echo "===finished==="
 exit
